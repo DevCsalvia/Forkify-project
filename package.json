@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Art-Web-Unique-Design/Forkify-project.git"
+  },
+  "author": "Ganiullin Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Art-Web-Unique-Design/Forkify-project/issues"
+  },
+  "homepage": "https://github.com/Art-Web-Unique-Design/Forkify-project#readme",
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
