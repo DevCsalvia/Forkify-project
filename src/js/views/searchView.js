@@ -16,7 +16,7 @@ export const highlightSelected = id => {
 	resultsArr.forEach(el => {
 		el.classList.remove('results__link--active');
 	});
-	document.querySelector(`a[href="#${id}"]`).classList.add('results__link--active');
+	document.querySelector(`.results__link[href="#${id}"]`).classList.add('results__link--active');
 };
 
 /*
@@ -29,7 +29,7 @@ acc: 18 / acc + cur.length = 24 / newTitle = ['Pasta', 'with', 'tomato']
 
 
 */
-const limitRecipeTitle = (title, limit = 17) => {
+export const limitRecipeTitle = (title, limit = 17) => {
 	//With const arrays we can not change value of array variables, but we can push into new variables, for objects too.
 	const newTitle = [];
 	if (title.length > limit){

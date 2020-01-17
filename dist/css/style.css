@@ -407,7 +407,11 @@ body {
     list-style: none;
     margin-bottom: 3rem; }
   .recipe__item {
-    display: flex; }
+    display: flex;
+    cursor: pointer; }
+  .recipe__item:hover{
+    color: #F48982;
+  }
   .recipe__icon {
     height: 1.8rem;
     width: 1.8rem;
@@ -490,3 +494,13 @@ body {
   .shopping__item:hover .shopping__delete {
     opacity: 1;
     visibility: visible; }
+
+
+
+
+/* Css styles for extra task */
+
+.shopping__list-remove{
+  justify-content: center;
+  margin-top: 3rem;
+}
